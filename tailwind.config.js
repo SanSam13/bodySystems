@@ -13,14 +13,30 @@ module.exports = {
       fontFamily: {
         'DMSans': ['DM Sans', 'sans-serif'],
         'Quicksand': ['Quicksand', 'sans-serif'],
+      },
+      height:{
+        '128': '32rem',
+      },
+      spacing: {
+        '5px': '5px',
       }
-      
     },
     container: {
       center: true,
-      padding: '1rem',
+      padding: {
+        DEFAULT: '1rem',
+        sm: '2rem',
+        lg: '4rem',
+        xl: '5rem',
+        '2xl': '6rem',
+      },
     },
+    backgroundImage: {
+      'bg-blog': "url('assets/images/home/bg-blog.png')",
+    }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/forms'),
+  ],
 }
 
