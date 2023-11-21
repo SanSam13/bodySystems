@@ -11,7 +11,7 @@
       @apply bg-primary-color text-white rounded-full p-3 hover:bg-accent-color transition delay-150 duration-300 ease-in-out
     }
     .blog-card{
-      @apply rounded-md bg-primary-color text-white p-5 pr-20 w-full md:w-full lg:w-1/3 lg:max-w-sm mb-5
+      @apply rounded-md bg-primary-color text-white p-5 lg:pr-20 w-full lg:w-1/3 lg:max-w-sm mb-5
     }
     .salud-card{
       @apply rounded-md bg-white text-accent-color p-5 w-full md:w-full lg:w-1/3 lg:max-w-sm mb-5 text-center

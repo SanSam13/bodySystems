@@ -11,6 +11,7 @@
     <meta name="title" content="Body Systems">
     <meta name="description" content="Tu programa de bienestar híbrido, multidimensional y simple para los colaboradores de tu empresa.">
     <meta name="keywords" content="bienestar, salud">
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
 
     <!-- Etiquetas openGraph -->
     <meta property="og:description" content="Tu programa de bienestar híbrido, multidimensional y simple para los colaboradores de tu empresa.">
@@ -63,27 +64,27 @@
                         <h1 class="text-white font-DMSans text-[38px] lg:text-[50px] font-bold  lg:pr-24">Tu programa de bienestar para los colaboradores de tu empresa.</h1>
                         <p class="text-white font-DMSans text-[20px] font-normal lg:pr-24">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos.</p>
                     </div>
-                    <img class="block absolute left-[18%] lg:right-[8.5rem] bottom-[5%] lg:bottom-[12rem]" src="./assets/images/home/cruz.png" alt="cruz">
-                    <img class="block absolute left-[0] lg:right-1/3 bottom-20" src="./assets/images/home/arrows.png" alt="arrows">
+                    <img class="block absolute left-[18%] lg:right-[8.5rem] bottom-[5%] lg:bottom-[12rem] animate-ping delay-300" src="./assets/images/home/cruz.png" alt="cruz">
+                    <img class="block absolute left-[0] lg:right-1/3 bottom-20 animate-pulse" src="./assets/images/home/arrows.png" alt="arrows">
                 </div>
                 <div class="relative w-full lg:w-1/2 flex justify-end">
-                    <img class="block absolute right-[14%] lg:right-[93%] top-[-22%] lg:top-[41%]" src="./assets/images/home/cruz.png" alt="cruz">
-                    <img class="block absolute top-[-14%] right-[22%] lg:right-[85%] lg:top-[50%]" src="./assets/images/home/arrows.png" alt="arrows">
+                    <img class="block absolute right-[14%] lg:right-[93%] top-[-22%] lg:top-[41%] animate-ping" src="./assets/images/home/cruz.png" alt="cruz">
+                    <img class="block absolute top-[-14%] right-[22%] lg:right-[85%] lg:top-[50%] animate-pulse" src="./assets/images/home/arrows.png" alt="arrows">
 
                     <div class="form-card rounded-md bg-white p-5 w-full lg:w-3/4 mb-10">
                         <h2 class="text-2xl font-DMSans text-text-black font-bold">Start here</h2>
                         <form name="contactForm" id="loginForm" class="loginForm text-center" novalidate>
                         
                             <div class="my-5">
-                                <input class="name w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="name" id="name" placeholder="Name" >
+                                <input class="nameLogin w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="name" id="nameLogin" placeholder="Name" >
                                 <small class="error hidden"></small>
                             </div>
                             <div class="my-5">
-                                <input class="tel w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950" type="text" name="tel" id="tel" placeholder="Phone">
+                                <input class="telLogin w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950" type="text" name="telLogin" id="telLogin" placeholder="Phone">
                                 <small class="error hidden"></small>
                             </div>
                             <div class="my-5">
-                                <input class="email w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color"  type="email" name="email" id="email" placeholder="Email" >
+                                <input class="emailLogin w-full form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color"  type="email" name="email" id="emailLogin" placeholder="Email" >
                                 <small class="error hidden"></small>
                             </div>
                             <div>
@@ -168,24 +169,13 @@
                 <h2 class="lg:w-1/2 font-DMSans text-[32px] lg:text-[44px] text-text-black font-bold mb-10">Nuestro Blog</h2>
                 <p class="lg:w-1/2 font-DMSans text-base text-text-black font-normal mb-8">An mel corpora consectetuer. Duo veri eripuit honestatis ei. Mandamus expetenda has ex. Eu minim movet quodsi eum. Et vim dolore epicurei, ut aeque postea nam, at posse dicta.</p>
             </div>
-            <div class="lg:flex lg:gap-4 lg:justify-between">
-                <div class="blog-card">
+            <div class="lg:flex  lg:justify-between" id="blog-container">
+               <!--  <div class="blog-card">
                     <h3 class="font-DMSans font-bold mb-2 text-2xl">Beneficios fiscales
                         al arrendar un auto</h3>
                     <p class="font-DMSans font-normal mb-2 text-base">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. </p>
                     <a href="#" title="Learn more" class="font-DMSans font-bold mb-2 text-base hover:text-accent-color">Learn more</a>
-                </div>
-                <div class="blog-card">
-                    <h3 class="font-DMSans font-bold mb-2 text-2xl">Arrendamiento
-                        puro vs financiero</h3>
-                    <p class="font-DMSans font-normal mb-2 text-base">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. </p>
-                    <a href="#" title="Learn more" class="font-DMSans font-bold mb-2 text-base hover:text-accent-color">Learn more</a>
-                </div>
-                <div class="blog-card">
-                    <h3 class="font-DMSans font-bold mb-2 text-2xl">Money Back</h3>
-                    <p class="font-DMSans font-normal mb-2 text-base">Quidam officiis similique sea ei, vel tollit indoctum efficiendi ei, at nihil tantas platonem eos. </p>
-                    <a href="#" title="Learn more" class="font-DMSans font-bold mb-2 text-base hover:text-accent-color">Learn more</a>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -241,9 +231,9 @@
                 <div>
                     <a href="#" title="Ir al plan" class="plan-card group">
                         <span class="bg-[#eeeeee]  rounded-full w-[70px] h-[70px] m-auto mb-4 flex justify-center items-center group-hover:bg-accent-color">
-                            <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path class="group-hover:fill-white" d="M21.6971 11.5312V9.46878H26.6683V11.5312H21.6971ZM23.2678 20.786L19.2909 17.8033L20.5443 16.1587L24.5211 19.1413L23.2678 20.786ZM20.4913 4.78846L19.238 3.14378L23.2149 0.161099L24.4683 1.80577L20.4913 4.78846ZM4.21881 19.411V14.0432H2.81734C2.13163 14.0432 1.54593 13.8004 1.06026 13.3148C0.574612 12.8291 0.331787 12.2434 0.331787 11.5577V9.44232C0.331787 8.7566 0.574612 8.17091 1.06026 7.68524C1.54593 7.19959 2.13163 6.95676 2.81734 6.95676H8.13223L14.2933 3.28132V17.7187L8.13223 14.0432H6.28124V19.411H4.21881ZM16.1971 14.7889V6.21107C16.7366 6.69937 17.1711 7.31459 17.5007 8.05673C17.8304 8.79888 17.9952 9.61331 17.9952 10.5C17.9952 11.3867 17.8304 12.2011 17.5007 12.9433C17.1711 13.6854 16.7366 14.3006 16.1971 14.7889ZM2.81734 9.01923C2.71158 9.01923 2.61462 9.0633 2.52646 9.15143C2.43832 9.23959 2.39425 9.33655 2.39425 9.44232V11.5577C2.39425 11.6634 2.43832 11.7604 2.52646 11.8486C2.61462 11.9367 2.71158 11.9808 2.81734 11.9808H8.70337L12.2308 14.0539V6.94614L8.70337 9.01923H2.81734Z" fill="#3C1053"/>
-                            </svg>                            
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="fill-accent-color group-hover:fill-white" d="M12.1159 30.0649L9.66205 25.9293L5.00293 24.9086L5.45774 20.112L2.30054 16.5L5.45774 12.888L5.00293 8.09139L9.66205 7.07073L12.1159 2.93514L16.5 4.79669L20.8841 2.93514L23.3379 7.07073L27.9971 8.09139L27.5422 12.888L30.6994 16.5L27.5422 20.112L27.9971 24.9086L23.3379 25.9293L20.8841 30.0648L16.5 28.2033L12.1159 30.0649ZM12.9937 27.4313L16.5 25.9452L20.0486 27.4313L22 24.1313L25.7812 23.2639L25.4375 19.3875L27.9812 16.5L25.4375 13.5702L25.7812 9.69375L22 8.86875L20.0062 5.56875L16.5 7.05482L12.9514 5.56875L11 8.86875L7.21874 9.69375L7.56249 13.5702L5.01874 16.5L7.56249 19.3875L7.21874 23.3063L11 24.1313L12.9937 27.4313ZM15.0562 20.9053L22.349 13.6125L20.9 12.1212L15.0562 17.9649L12.1 15.051L10.651 16.5L15.0562 20.9053Z" fill="white"/>
+                            </svg>                                                            
                         </span>
                         <h3 class="text-text-black group-hover:text-accent-color text-2xl font-bold font-DMSans mb-8">Normal plan</h3>
                         <ul>
@@ -260,9 +250,9 @@
                 <div>
                     <a href="#" title="Ir al plan" class="plan-card group">
                         <span class="bg-[#eeeeee]  rounded-full w-[70px] h-[70px] m-auto mb-4 flex justify-center items-center group-hover:bg-accent-color">
-                            <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path class="group-hover:fill-white" d="M21.6971 11.5312V9.46878H26.6683V11.5312H21.6971ZM23.2678 20.786L19.2909 17.8033L20.5443 16.1587L24.5211 19.1413L23.2678 20.786ZM20.4913 4.78846L19.238 3.14378L23.2149 0.161099L24.4683 1.80577L20.4913 4.78846ZM4.21881 19.411V14.0432H2.81734C2.13163 14.0432 1.54593 13.8004 1.06026 13.3148C0.574612 12.8291 0.331787 12.2434 0.331787 11.5577V9.44232C0.331787 8.7566 0.574612 8.17091 1.06026 7.68524C1.54593 7.19959 2.13163 6.95676 2.81734 6.95676H8.13223L14.2933 3.28132V17.7187L8.13223 14.0432H6.28124V19.411H4.21881ZM16.1971 14.7889V6.21107C16.7366 6.69937 17.1711 7.31459 17.5007 8.05673C17.8304 8.79888 17.9952 9.61331 17.9952 10.5C17.9952 11.3867 17.8304 12.2011 17.5007 12.9433C17.1711 13.6854 16.7366 14.3006 16.1971 14.7889ZM2.81734 9.01923C2.71158 9.01923 2.61462 9.0633 2.52646 9.15143C2.43832 9.23959 2.39425 9.33655 2.39425 9.44232V11.5577C2.39425 11.6634 2.43832 11.7604 2.52646 11.8486C2.61462 11.9367 2.71158 11.9808 2.81734 11.9808H8.70337L12.2308 14.0539V6.94614L8.70337 9.01923H2.81734Z" fill="#3C1053"/>
-                            </svg>                            
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path class="group-hover:fill-white" d="M10.577 28.1875V26.125H15.4688V21.4129C14.3018 21.1785 13.2705 20.6875 12.375 19.9401C11.4795 19.1927 10.8431 18.261 10.4659 17.1452C8.87936 16.9565 7.54051 16.2831 6.44933 15.125C5.35813 13.9668 4.81253 12.5918 4.81253 11V9.625C4.81253 9.06267 5.0157 8.57835 5.42203 8.17204C5.82835 7.7657 6.31267 7.56253 6.875 7.56253H10.0746V4.81253H22.9254V7.56253H26.125C26.6873 7.56253 27.1716 7.7657 27.578 8.17204C27.9843 8.57835 28.1875 9.06267 28.1875 9.625V11C28.1875 12.5918 27.6419 13.9668 26.5507 15.125C25.4595 16.2831 24.1206 16.9565 22.5341 17.1452C22.1569 18.261 21.5205 19.1927 20.625 19.9401C19.7294 20.6875 18.6982 21.1785 17.5312 21.4129V26.125H22.423V28.1875H10.577ZM10.0746 14.9293V9.625H6.875V11C6.875 11.959 7.17556 12.8012 7.77669 13.5266C8.37781 14.252 9.14377 14.7196 10.0746 14.9293ZM16.5 19.4351C17.7075 19.4351 18.7322 19.0142 19.5739 18.1725C20.4157 17.3307 20.8365 16.3061 20.8365 15.0986V6.875H12.1635V15.0986C12.1635 16.3061 12.5843 17.3307 13.4261 18.1725C14.2678 19.0142 15.2924 19.4351 16.5 19.4351ZM22.9254 14.9293C23.8562 14.7196 24.6222 14.252 25.2233 13.5266C25.8244 12.8012 26.125 11.959 26.125 11V9.625H22.9254V14.9293Z" fill="#3C1053"/>
+                            </svg>                      
                         </span>
                         <h3 class="text-text-black group-hover:text-accent-color text-2xl font-bold font-DMSans mb-8">Pro plan</h3>
                         <ul>
@@ -279,9 +269,11 @@
                 <div>
                     <a href="#" title="Ir al plan" class="plan-card group">
                         <span class="bg-[#eeeeee]  rounded-full w-[70px] h-[70px] m-auto mb-4 flex justify-center items-center group-hover:bg-accent-color">
-                            <svg width="27" height="21" viewBox="0 0 27 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path class="group-hover:fill-white" d="M21.6971 11.5312V9.46878H26.6683V11.5312H21.6971ZM23.2678 20.786L19.2909 17.8033L20.5443 16.1587L24.5211 19.1413L23.2678 20.786ZM20.4913 4.78846L19.238 3.14378L23.2149 0.161099L24.4683 1.80577L20.4913 4.78846ZM4.21881 19.411V14.0432H2.81734C2.13163 14.0432 1.54593 13.8004 1.06026 13.3148C0.574612 12.8291 0.331787 12.2434 0.331787 11.5577V9.44232C0.331787 8.7566 0.574612 8.17091 1.06026 7.68524C1.54593 7.19959 2.13163 6.95676 2.81734 6.95676H8.13223L14.2933 3.28132V17.7187L8.13223 14.0432H6.28124V19.411H4.21881ZM16.1971 14.7889V6.21107C16.7366 6.69937 17.1711 7.31459 17.5007 8.05673C17.8304 8.79888 17.9952 9.61331 17.9952 10.5C17.9952 11.3867 17.8304 12.2011 17.5007 12.9433C17.1711 13.6854 16.7366 14.3006 16.1971 14.7889ZM2.81734 9.01923C2.71158 9.01923 2.61462 9.0633 2.52646 9.15143C2.43832 9.23959 2.39425 9.33655 2.39425 9.44232V11.5577C2.39425 11.6634 2.43832 11.7604 2.52646 11.8486C2.61462 11.9367 2.71158 11.9808 2.81734 11.9808H8.70337L12.2308 14.0539V6.94614L8.70337 9.01923H2.81734Z" fill="#3C1053"/>
-                            </svg>                            
+                            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              
+                                <path class="group-hover:fill-white" d="M3.25246 28.2932V4.23077H16.3149V9.73077H29.7476V28.2932H3.25246ZM5.31489 26.2308H8.75242V22.7932H5.31489V26.2308ZM5.31489 20.7308H8.75242V17.2932H5.31489V20.7308ZM5.31489 15.2308H8.75242V11.7932H5.31489V15.2308ZM5.31489 9.73077H8.75242V6.29324H5.31489V9.73077ZM10.8149 26.2308H14.2524V22.7932H10.8149V26.2308ZM10.8149 20.7308H14.2524V17.2932H10.8149V20.7308ZM10.8149 15.2308H14.2524V11.7932H10.8149V15.2308ZM10.8149 9.73077H14.2524V6.29324H10.8149V9.73077ZM16.3149 26.2308H27.6851V11.7932H16.3149V15.2308H19.3293V17.2932H16.3149V20.7308H19.3293V22.7932H16.3149V26.2308ZM22.3438 17.2932V15.2308H24.4062V17.2932H22.3438ZM22.3438 22.7932V20.7308H24.4062V22.7932H22.3438Z" fill="#000000"/>
+                                
+                            </svg>                                                         
                         </span>
                         <h3 class="text-text-black group-hover:text-accent-color text-2xl font-bold font-DMSans mb-8">Enterprise</h3>
                         <ul>
@@ -307,10 +299,10 @@
                 <div class="flex flex-col md:flex-row justify-center">
                     <div class="my-2 md:m-5">
                         <input class="name form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="name" id="name" placeholder="Your name" >
-                        <small class="error hidden">s</small>
+                        <small class="error hidden"></small>
                     </div>
                     <div class="my-2 md:m-5">
-                        <input class=" company form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="company" id="company" placeholder="Your company" >
+                        <input class="company form-input focus:outline-none focus:right-1 focus:ring-purple-950 invalid:ring-primary-color" type="text" name="company" id="company" placeholder="Your company" >
                         <small class="error hidden"></small>
                     </div>
                 </div>
@@ -324,6 +316,7 @@
                     </div>
                 </div>
                 <button class="red-button w-40 lg:w-48 mt-5" type="submit">Contact us</button>
+                <small class="enviado block py-5 text-green-600 font-DMSans text-base"></small>
             </form>
 
         </div>
